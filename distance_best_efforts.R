@@ -42,3 +42,5 @@ distance_best_efforts <- function(.df, distances){
   # Return as a dt as opposed to a list
   rbindlist(effort_duration)
 }
+
+distance_best_efforts(half_data, search_distances)
